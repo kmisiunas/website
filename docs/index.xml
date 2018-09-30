@@ -6,9 +6,19 @@
     <description>Recent content on Testing site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
+    <lastBuildDate>Sun, 30 Sep 2018 11:59:27 +0100</lastBuildDate>
     
 	<atom:link href="https://kmisiunas.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Problems</title>
+      <link>https://kmisiunas.github.io/website/problems/</link>
+      <pubDate>Sun, 30 Sep 2018 11:59:27 +0100</pubDate>
+      
+      <guid>https://kmisiunas.github.io/website/problems/</guid>
+      <description>How do you ensure an adequate replacement rate in systems that have no natural way to die? Schumpeter claimed that the problem of capitalism is not how capital is allocated to existing structures but how structures are created and destroyed. Systems and institutions inevitably get stale or become less effective but also work very hard to survive. (See also: the institutional imperative.) Bankruptcy takes care of senescent businesses. But how do we get a sufficient replacement rate in systems and institutions that aren&amp;rsquo;t naturally subject to extinction processes?</description>
+    </item>
     
   </channel>
 </rss>
