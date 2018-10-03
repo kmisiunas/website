@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Karolis Misiunas</title>
+    <link>https://kmisiunas.github.io/website/posts/</link>
+    <description>Recent content in Posts on Karolis Misiunas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 30 Sep 2018 11:55:39 +0100</lastBuildDate>
+    
+	<atom:link href="https://kmisiunas.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demo post</title>
+      <link>https://kmisiunas.github.io/website/posts/demo/</link>
+      <pubDate>Sun, 30 Sep 2018 11:55:39 +0100</pubDate>
+      
+      <guid>https://kmisiunas.github.io/website/posts/demo/</guid>
+      <description>So What this Hugo is about? Editing with Typora&amp;hellip; Is this live? Schumpeter claimed that
+link to extended documentation
+Heading 1 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English.</description>
+    </item>
+    
+    <item>
+      <title>QuipuNet: single-molecule analysis using deep-learning</title>
+      <link>https://kmisiunas.github.io/website/posts/quipunet/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kmisiunas.github.io/website/posts/quipunet/</guid>
+      <description>Abstract. Nanopore sensing is a versatile technique for the analysis of molecules on the single-molecule level. However, extracting information from data with established algorithms usually requires time-consuming checks by an experienced researcher due to inherent variability of solid-state nanopores. Here, we develop a convolutional neural network (CNN) for the fully automated extraction of information from the time-series signals obtained by nanopore sensors. In our demonstration, we use a previously published data set on multiplexed single-molecule protein sensing.</description>
+    </item>
+    
+  </channel>
+</rss>

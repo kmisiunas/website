@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Testing site</title>
+    <title>Karolis Misiunas</title>
     <link>https://kmisiunas.github.io/website/</link>
-    <description>Recent content on Testing site</description>
+    <description>Recent content on Karolis Misiunas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
-    <lastBuildDate>Sun, 30 Sep 2018 11:59:27 +0100</lastBuildDate>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 02 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kmisiunas.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Problems</title>
-      <link>https://kmisiunas.github.io/website/problems/</link>
-      <pubDate>Sun, 30 Sep 2018 11:59:27 +0100</pubDate>
+      <title>Learning algorithms</title>
+      <link>https://kmisiunas.github.io/website/learning/cs/algorithms/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/problems/</guid>
-      <description>How do you ensure an adequate replacement rate in systems that have no natural way to die? Schumpeter claimed that the problem of capitalism is not how capital is allocated to existing structures but how structures are created and destroyed. Systems and institutions inevitably get stale or become less effective but also work very hard to survive. (See also: the institutional imperative.) Bankruptcy takes care of senescent businesses. But how do we get a sufficient replacement rate in systems and institutions that aren&amp;rsquo;t naturally subject to extinction processes?</description>
+      <guid>https://kmisiunas.github.io/website/learning/cs/algorithms/</guid>
+      <description>Backtracking [1] Backtracking is a technique used to build up to a solution to a problem incrementally. These &amp;ldquo;partial solutions&amp;rdquo; can be phrased in terms of a sequence of decisions. Once it is determined that a &amp;ldquo;partial solution&amp;rdquo; is not viable (i.e. no subsequent decision can convert it into a solution) then the backtracking algorithm retraces its step to the last viable &amp;ldquo;partial solution&amp;rdquo; and tries again.
+Visualizing the decisions as a tree, backtracking has many of the same properties of depth-first search.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://kmisiunas.github.io/website/about/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kmisiunas.github.io/website/about/</guid>
+      <description>I am researcher at the University of Cambridge with fondness for hiking, sailing, and philosophy.
+Research Interests  Machine learning applied physics problems
+ Generative Adversarial Networks
+ Nanotechnology based bio-sensors
+ Brownian motion in complex geometries
+  Other Interests  Entrepreneurship Quantified-Self  Contact Primary email k.misiunas (at) gmail.com
+For secure email please use k.misiunas (at) protonmail.ch (public key)</description>
+    </item>
+    
+    <item>
+      <title>Demo post</title>
+      <link>https://kmisiunas.github.io/website/posts/demo/</link>
+      <pubDate>Sun, 30 Sep 2018 11:55:39 +0100</pubDate>
+      
+      <guid>https://kmisiunas.github.io/website/posts/demo/</guid>
+      <description>So What this Hugo is about? Editing with Typora&amp;hellip; Is this live? Schumpeter claimed that
+link to extended documentation
+Heading 1 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English.</description>
+    </item>
+    
+    <item>
+      <title>QuipuNet: single-molecule analysis using deep-learning</title>
+      <link>https://kmisiunas.github.io/website/posts/quipunet/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kmisiunas.github.io/website/posts/quipunet/</guid>
+      <description>Abstract. Nanopore sensing is a versatile technique for the analysis of molecules on the single-molecule level. However, extracting information from data with established algorithms usually requires time-consuming checks by an experienced researcher due to inherent variability of solid-state nanopores. Here, we develop a convolutional neural network (CNN) for the fully automated extraction of information from the time-series signals obtained by nanopore sensors. In our demonstration, we use a previously published data set on multiplexed single-molecule protein sensing.</description>
     </item>
     
   </channel>

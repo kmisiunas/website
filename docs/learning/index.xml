@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learnings on Karolis Misiunas</title>
+    <link>https://kmisiunas.github.io/website/learning/</link>
+    <description>Recent content in Learnings on Karolis Misiunas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 02 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kmisiunas.github.io/website/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning algorithms</title>
+      <link>https://kmisiunas.github.io/website/learning/cs/algorithms/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kmisiunas.github.io/website/learning/cs/algorithms/</guid>
+      <description>Backtracking [1] Backtracking is a technique used to build up to a solution to a problem incrementally. These &amp;ldquo;partial solutions&amp;rdquo; can be phrased in terms of a sequence of decisions. Once it is determined that a &amp;ldquo;partial solution&amp;rdquo; is not viable (i.e. no subsequent decision can convert it into a solution) then the backtracking algorithm retraces its step to the last viable &amp;ldquo;partial solution&amp;rdquo; and tries again.
+Visualizing the decisions as a tree, backtracking has many of the same properties of depth-first search.</description>
+    </item>
+    
+  </channel>
+</rss>

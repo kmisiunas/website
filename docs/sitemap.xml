@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kmisiunas.github.io/website/problems/</loc>
-    <lastmod>2018-09-30T11:59:27+01:00</lastmod>
+    <loc>https://kmisiunas.github.io/website/learning/cs/algorithms/</loc>
+    <lastmod>2018-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmisiunas.github.io/website/about/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmisiunas.github.io/website/posts/demo/</loc>
+    <lastmod>2018-09-30T11:55:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmisiunas.github.io/website/posts/quipunet/</loc>
+    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,13 +28,25 @@
   </url>
   
   <url>
-    <loc>https://kmisiunas.github.io/website/tags/</loc>
+    <loc>https://kmisiunas.github.io/website/</loc>
+    <lastmod>2018-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kmisiunas.github.io/website/</loc>
-    <lastmod>2018-09-30T11:59:27+01:00</lastmod>
+    <loc>https://kmisiunas.github.io/website/learning/</loc>
+    <lastmod>2018-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmisiunas.github.io/website/posts/</loc>
+    <lastmod>2018-09-30T11:55:39+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmisiunas.github.io/website/tags/</loc>
     <priority>0</priority>
   </url>
   
