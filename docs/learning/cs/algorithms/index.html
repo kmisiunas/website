@@ -73,6 +73,11 @@
 <li><a href="#example-sum-subsets">Example: sum subsets</a></li>
 </ul></li>
 </ul></li>
+<li><a href="#dynamic-programming-2">Dynamic Programming [2]</a>
+<ul>
+<li><a href="#generalised-algorithm-1">Generalised algorithm</a></li>
+<li><a href="#example-filling-blocks">Example: filling blocks</a></li>
+</ul></li>
 <li><a href="#references">References</a></li>
 </ul>
 </nav>
@@ -212,10 +217,93 @@
     
     addSumSubsets(<span style="color:#40a070">0</span>, num, ())
     <span style="color:#007020;font-weight:bold">return</span> <span style="color:#007020">sorted</span>(<span style="color:#007020">list</span>(result))</code></pre></div>
+<h1 id="dynamic-programming-2">Dynamic Programming [2]</h1>
+
+<p>Break down problem into reoccurring smaller problems. Then save results for the reoccurring problem, so it would not be required to solve the same problem more than once. Two common approaches include:</p>
+
+<ul>
+<li><strong>Bottom-up strategy (iteration):</strong> In this strategy,  you start solving from the smallest subproblem up towards the original  problem. If you’re doing this, you’ll solve all of the subproblems,  thereby solving the larger problem. The cache in bottom-up solutions is usually an array (either one or multi-dimensional).</li>
+<li><strong>Top-down strategy (recursion):</strong> Start solving the identified subproblems. If a subproblem hasn’t been solved yet, solve it  and cache the answer; if it has been solved, return the cached answer.  This is called <em>memoization</em>. The cache in top-down solutions is usually a hash table, binary search tree, or other dynamic data structure.</li>
+</ul>
+
+<h2 id="generalised-algorithm-1">Generalised algorithm</h2>
+
+<ol>
+<li>Find a recursive or iterative solution to the problem first (although usually these will have bad run times).</li>
+<li>This helps you identify the subproblems, which are “smaller” instances of the original problem.</li>
+<li>Determine whether the subproblems are overlapping. If they’re  overlapping, a recursive algorithm will be solving the same subproblem  over and over. (If they’re not overlapping and the recursive algorithm  generates new subproblems each time it runs, DP isn’t a good solution;  try a divide-and-conquer solution like merge sort or quick sort  instead.)</li>
+<li>Store/cache the results for every subproblem.</li>
+<li>Once the subproblems have solutions, the original problem is easy to solve!</li>
+</ol>
+
+<h2 id="example-filling-blocks">Example: filling blocks</h2>
+
+<p>You have a block with the dimensions <code>4 × n</code>. Find the number of different ways you can fill this block with smaller blocks that have the dimensions <code>1 × 2</code>. You are allowed to rotate the smaller blocks.</p>
+
+<p>For <code>n = 1</code>, the output should be <code>fillingBlocks(n) = 1</code>. For <code>n = 4</code>, the output should be <code>fillingBlocks(n) = 36</code>.</p>
+
+<p>The reoccurring subproblem is along the <code>n</code> axis. For each row there are number of combinations ($2^4=16$ in total). We can compute all the possible transitions using the following code</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">state_to_int</span>(state):
+    out <span style="color:#666">=</span> <span style="color:#40a070">0</span>
+    <span style="color:#007020;font-weight:bold">for</span> i, x <span style="color:#007020;font-weight:bold">in</span> <span style="color:#007020">enumerate</span>(state[::<span style="color:#666">-</span><span style="color:#40a070">1</span>]):
+        out <span style="color:#666">+=</span> x <span style="color:#666">*</span> <span style="color:#40a070">2</span><span style="color:#666">**</span>i
+    <span style="color:#007020;font-weight:bold">return</span> out 
+
+<span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">from_int_to_state</span>(x):
+    out <span style="color:#666">=</span> <span style="color:#007020">tuple</span>()
+    <span style="color:#007020;font-weight:bold">for</span> i <span style="color:#007020;font-weight:bold">in</span> <span style="color:#007020">range</span>(<span style="color:#40a070">4</span>):
+        out <span style="color:#666">=</span> out <span style="color:#666">+</span> (x <span style="color:#666">%</span> <span style="color:#40a070">2</span> ,)
+        x <span style="color:#666">=</span> x <span style="color:#666">//</span> <span style="color:#40a070">2</span>
+    <span style="color:#007020;font-weight:bold">return</span> out 
+
+<span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">find_options</span>(state) <span style="color:#666">-&gt;</span> <span style="color:#4070a0">&#34;list of states&#34;</span>:
+    out <span style="color:#666">=</span> []
+    stack <span style="color:#666">=</span> [<span style="color:#007020">tuple</span>()]
+    <span style="color:#007020;font-weight:bold">while</span> <span style="color:#007020">len</span>(stack) <span style="color:#666">&gt;</span> <span style="color:#40a070">0</span>:
+        current <span style="color:#666">=</span> stack<span style="color:#666">.</span>pop()
+        <span style="color:#007020;font-weight:bold">if</span> <span style="color:#007020">len</span>(current) <span style="color:#666">==</span> <span style="color:#40a070">4</span>: 
+            out<span style="color:#666">.</span>append(current)
+        <span style="color:#007020;font-weight:bold">else</span>:
+            i <span style="color:#666">=</span> <span style="color:#007020">len</span>(current)
+            <span style="color:#007020;font-weight:bold">if</span> state[i]:
+                stack<span style="color:#666">.</span>append(current <span style="color:#666">+</span> (<span style="color:#40a070">0</span>,))
+            <span style="color:#007020;font-weight:bold">else</span>:
+                stack<span style="color:#666">.</span>append(current <span style="color:#666">+</span> (<span style="color:#40a070">1</span>,))
+                <span style="color:#007020;font-weight:bold">if</span> <span style="color:#007020">len</span>(current) <span style="color:#666">&lt;</span> <span style="color:#40a070">3</span> <span style="color:#007020;font-weight:bold">and</span> state[i<span style="color:#666">+</span><span style="color:#40a070">1</span>] <span style="color:#666">==</span> <span style="color:#40a070">0</span>:
+                    stack<span style="color:#666">.</span>append(current <span style="color:#666">+</span> (<span style="color:#40a070">0</span>,<span style="color:#40a070">0</span>,))
+    <span style="color:#007020;font-weight:bold">return</span> out     
+
+<span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">find_vec_transitions</span>() <span style="color:#666">-&gt;</span> <span style="color:#4070a0">&#34;dict[int: list[int]]&#34;</span>:
+    out <span style="color:#666">=</span> {}
+    <span style="color:#007020;font-weight:bold">for</span> i <span style="color:#007020;font-weight:bold">in</span> <span style="color:#007020">range</span>(<span style="color:#40a070">16</span>):
+        res <span style="color:#666">=</span> find_options( from_int_to_state(i) )
+        out[i] <span style="color:#666">=</span> <span style="color:#007020">list</span>(<span style="color:#007020">map</span>(state_to_int, res))
+    <span style="color:#007020;font-weight:bold">return</span> out</code></pre></div>
+<p>Where the output gives us the transition from layer <code>n</code> to <code>n+1</code>:</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">find_vec_transitions()
+{<span style="color:#40a070">0</span>: [<span style="color:#40a070">0</span>, <span style="color:#40a070">3</span>, <span style="color:#40a070">9</span>, <span style="color:#40a070">12</span>, <span style="color:#40a070">15</span>], 
+ <span style="color:#40a070">1</span>: [<span style="color:#40a070">1</span>, <span style="color:#40a070">4</span>, <span style="color:#40a070">7</span>], 
+ <span style="color:#40a070">2</span>: [<span style="color:#40a070">8</span>, <span style="color:#40a070">11</span>], 
+ <span style="color:#40a070">3</span>: [<span style="color:#40a070">0</span>, <span style="color:#40a070">3</span>], 
+ <span style="color:#40a070">4</span>: [<span style="color:#40a070">1</span>, <span style="color:#40a070">13</span>], 
+ <span style="color:#40a070">5</span>: [<span style="color:#40a070">5</span>], 
+ <span style="color:#40a070">6</span>: [<span style="color:#40a070">9</span>], 
+ <span style="color:#40a070">7</span>: [<span style="color:#40a070">1</span>], 
+ <span style="color:#40a070">8</span>: [<span style="color:#40a070">2</span>, <span style="color:#40a070">8</span>, <span style="color:#40a070">14</span>], 
+ <span style="color:#40a070">9</span>: [<span style="color:#40a070">0</span>, <span style="color:#40a070">6</span>], 
+ <span style="color:#40a070">10</span>: [<span style="color:#40a070">10</span>], 
+ <span style="color:#40a070">11</span>: [<span style="color:#40a070">2</span>], 
+ <span style="color:#40a070">12</span>: [<span style="color:#40a070">0</span>, <span style="color:#40a070">12</span>], 
+ <span style="color:#40a070">13</span>: [<span style="color:#40a070">4</span>], 
+ <span style="color:#40a070">14</span>: [<span style="color:#40a070">8</span>], 
+ <span style="color:#40a070">15</span>: [<span style="color:#40a070">0</span>]  }</code></pre></div>
+<p>Observe that a lot of the states are unreachable. There are only 6 states that can be reached with a start at <code>0</code> state:  <code>{0, 3, 6, 9, 12, 15}</code>. Not need to count the states.</p>
+
 <h1 id="references">References</h1>
 
 <ol>
 <li><a href="https://app.codesignal.com/interview-practice/topics/backtracking/tutorial">https://app.codesignal.com/interview-practice/topics/backtracking/tutorial</a></li>
+<li><a href="https://app.codesignal.com/interview-practice/topics/dynamic-programming-basic/tutorial">https://app.codesignal.com/interview-practice/topics/dynamic-programming-basic/tutorial</a></li>
 </ol>
 
 
@@ -233,7 +321,7 @@
 </main>		<footer>
 			<span>
 			&nbsp;&bull;&nbsp;
-			<time datetime="2018-10-03 18:28:04.493695 &#43;0100 BST m=&#43;0.072825240">2018</time>
+			<time datetime="2018-10-06 18:29:40.815305 &#43;0100 BST m=&#43;0.162419766">2018</time>
 			&nbsp;&bull;&nbsp;
 			<a href="https://github.com/kmisiunas" target="_blank">GitHub</a>
 			&nbsp;&bull;&nbsp;

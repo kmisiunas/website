@@ -6,10 +6,20 @@
     <description>Recent content in Learnings on Karolis Misiunas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 02 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kmisiunas.github.io/website/learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>System Design</title>
+      <link>https://kmisiunas.github.io/website/learning/cs/system-design/</link>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kmisiunas.github.io/website/learning/cs/system-design/</guid>
+      <description>These questions are designed to see how you would perform with real world programming challenges. If you were asked by your manager to design some system, what would you do?
+Tips:  Communicate: A key goal of system design questions is to evaluate your ability to communicate. Stay engaged with the interviewer. Ask them questions. Be open about the issues of your system. Go broad first Use the whiteboard: Using a whiteboard helps your interviewer follow your proposed design.</description>
+    </item>
     
     <item>
       <title>Learning algorithms</title>
