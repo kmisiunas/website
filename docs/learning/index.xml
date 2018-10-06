@@ -2,33 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learnings on Karolis Misiunas</title>
-    <link>https://kmisiunas.github.io/website/learning/</link>
+    <link>https://karolis.misiunas.com/learning/</link>
     <description>Recent content in Learnings on Karolis Misiunas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://kmisiunas.github.io/website/learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://karolis.misiunas.com/learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>System Design</title>
-      <link>https://kmisiunas.github.io/website/learning/cs/system-design/</link>
+      <link>https://karolis.misiunas.com/learning/cs/system-design/</link>
       <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/learning/cs/system-design/</guid>
+      <guid>https://karolis.misiunas.com/learning/cs/system-design/</guid>
       <description>These questions are designed to see how you would perform with real world programming challenges. If you were asked by your manager to design some system, what would you do?
 Tips:  Communicate: A key goal of system design questions is to evaluate your ability to communicate. Stay engaged with the interviewer. Ask them questions. Be open about the issues of your system. Go broad first Use the whiteboard: Using a whiteboard helps your interviewer follow your proposed design.</description>
     </item>
     
     <item>
       <title>Learning algorithms</title>
-      <link>https://kmisiunas.github.io/website/learning/cs/algorithms/</link>
+      <link>https://karolis.misiunas.com/learning/cs/algorithms/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/learning/cs/algorithms/</guid>
+      <guid>https://karolis.misiunas.com/learning/cs/algorithms/</guid>
       <description>Backtracking [1] Backtracking is a technique used to build up to a solution to a problem incrementally. These &amp;ldquo;partial solutions&amp;rdquo; can be phrased in terms of a sequence of decisions. Once it is determined that a &amp;ldquo;partial solution&amp;rdquo; is not viable (i.e. no subsequent decision can convert it into a solution) then the backtracking algorithm retraces its step to the last viable &amp;ldquo;partial solution&amp;rdquo; and tries again.
 Visualizing the decisions as a tree, backtracking has many of the same properties of depth-first search.</description>
+    </item>
+    
+    <item>
+      <title>Cognitive Toolkit</title>
+      <link>https://karolis.misiunas.com/learning/self-hack/cognitive-toolkit/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://karolis.misiunas.com/learning/self-hack/cognitive-toolkit/</guid>
+      <description>Our mind comes with strong biases that we inherit from our biology and society. My plan is to understand these biases and learn how to identify and counter them in my own life. I am slowly revising this list and adding references and examples. The numbering system is from the original list by Peter McIntyre [1].
+(1) Signalling/countersignalling  The idea that an action conveys information to someone about the actor.</description>
+    </item>
+    
+    <item>
+      <title>Donald E. Brown’s List of Human Universals</title>
+      <link>https://karolis.misiunas.com/learning/self-hack/human-universals/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://karolis.misiunas.com/learning/self-hack/human-universals/</guid>
+      <description>Excerpt From Steven Pinker: “The Blank Slate”
+This list, compiled in 1989 and published in 1991, consists primarily of “surface” universals of behavior and overt language noted by ethnographers. It does not list deeper universals of mental structure that are revealed by theory and experiments. It also omits near-universals (traits that most, but not all, cultures show) and conditional universals (“If a culture has trait A, it always has trait B”).</description>
     </item>
     
   </channel>

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Karolis Misiunas</title>
-    <link>https://kmisiunas.github.io/website/</link>
+    <link>https://karolis.misiunas.com/</link>
     <description>Recent content on Karolis Misiunas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://kmisiunas.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://karolis.misiunas.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>System Design</title>
-      <link>https://kmisiunas.github.io/website/learning/cs/system-design/</link>
+      <link>https://karolis.misiunas.com/learning/cs/system-design/</link>
       <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/learning/cs/system-design/</guid>
+      <guid>https://karolis.misiunas.com/learning/cs/system-design/</guid>
       <description>These questions are designed to see how you would perform with real world programming challenges. If you were asked by your manager to design some system, what would you do?
 Tips:  Communicate: A key goal of system design questions is to evaluate your ability to communicate. Stay engaged with the interviewer. Ask them questions. Be open about the issues of your system. Go broad first Use the whiteboard: Using a whiteboard helps your interviewer follow your proposed design.</description>
     </item>
     
     <item>
       <title>Learning algorithms</title>
-      <link>https://kmisiunas.github.io/website/learning/cs/algorithms/</link>
+      <link>https://karolis.misiunas.com/learning/cs/algorithms/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/learning/cs/algorithms/</guid>
+      <guid>https://karolis.misiunas.com/learning/cs/algorithms/</guid>
       <description>Backtracking [1] Backtracking is a technique used to build up to a solution to a problem incrementally. These &amp;ldquo;partial solutions&amp;rdquo; can be phrased in terms of a sequence of decisions. Once it is determined that a &amp;ldquo;partial solution&amp;rdquo; is not viable (i.e. no subsequent decision can convert it into a solution) then the backtracking algorithm retraces its step to the last viable &amp;ldquo;partial solution&amp;rdquo; and tries again.
 Visualizing the decisions as a tree, backtracking has many of the same properties of depth-first search.</description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>https://kmisiunas.github.io/website/about/</link>
+      <link>https://karolis.misiunas.com/about/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/about/</guid>
+      <guid>https://karolis.misiunas.com/about/</guid>
       <description>I am researcher at the University of Cambridge with fondness for hiking, sailing, and philosophy.
 Research Interests  Machine learning applied physics problems
  Generative Adversarial Networks
@@ -48,38 +48,58 @@ For secure email please use k.misiunas (at) protonmail.ch (public key)</descript
     
     <item>
       <title>QuipuNet: single-molecule analysis using deep-learning</title>
-      <link>https://kmisiunas.github.io/website/posts/quipunet/</link>
+      <link>https://karolis.misiunas.com/posts/quipunet/</link>
       <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/quipunet/</guid>
+      <guid>https://karolis.misiunas.com/posts/quipunet/</guid>
       <description>Abstract. Nanopore sensing is a versatile technique for the analysis of molecules on the single-molecule level. However, extracting information from data with established algorithms usually requires time-consuming checks by an experienced researcher due to inherent variability of solid-state nanopores. Here, we develop a convolutional neural network (CNN) for the fully automated extraction of information from the time-series signals obtained by nanopore sensors. In our demonstration, we use a previously published data set on multiplexed single-molecule protein sensing.</description>
     </item>
     
     <item>
+      <title>Cognitive Toolkit</title>
+      <link>https://karolis.misiunas.com/learning/self-hack/cognitive-toolkit/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://karolis.misiunas.com/learning/self-hack/cognitive-toolkit/</guid>
+      <description>Our mind comes with strong biases that we inherit from our biology and society. My plan is to understand these biases and learn how to identify and counter them in my own life. I am slowly revising this list and adding references and examples. The numbering system is from the original list by Peter McIntyre [1].
+(1) Signalling/countersignalling  The idea that an action conveys information to someone about the actor.</description>
+    </item>
+    
+    <item>
+      <title>Donald E. Brown’s List of Human Universals</title>
+      <link>https://karolis.misiunas.com/learning/self-hack/human-universals/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://karolis.misiunas.com/learning/self-hack/human-universals/</guid>
+      <description>Excerpt From Steven Pinker: “The Blank Slate”
+This list, compiled in 1989 and published in 1991, consists primarily of “surface” universals of behavior and overt language noted by ethnographers. It does not list deeper universals of mental structure that are revealed by theory and experiments. It also omits near-universals (traits that most, but not all, cultures show) and conditional universals (“If a culture has trait A, it always has trait B”).</description>
+    </item>
+    
+    <item>
       <title>Sunshine per capita estimate</title>
-      <link>https://kmisiunas.github.io/website/posts/sunshine-per-capita/</link>
+      <link>https://karolis.misiunas.com/posts/sunshine-per-capita/</link>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/sunshine-per-capita/</guid>
+      <guid>https://karolis.misiunas.com/posts/sunshine-per-capita/</guid>
       <description>The heat map shows an effective sunshine amount per person. The red areas have plenty of sun, while purple areas have little sunshine per person.
 Sun is the source of life on earth. We use it for agriculture and increasingly for electricity generation. In the long term, humanity will rely completely on the renewable energy, where the sunshine will be the most valuable natural resource. Here, I look at the regions which have the greatest amount of the sunshine per capita.</description>
     </item>
     
     <item>
       <title>Forbes 30 under 30</title>
-      <link>https://kmisiunas.github.io/website/posts/forbes-30-under-30/</link>
+      <link>https://karolis.misiunas.com/posts/forbes-30-under-30/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/forbes-30-under-30/</guid>
+      <guid>https://karolis.misiunas.com/posts/forbes-30-under-30/</guid>
       <description>Forbes magazine has picked me ’30 under 30′ in category of Science and healthcare, Europe. This was a pleasant surprise that I am very grateful for. You can read more about it: Forbes article or Churchill college article.</description>
     </item>
     
     <item>
       <title>Nondecaying particle interactions</title>
-      <link>https://kmisiunas.github.io/website/posts/nondecaying-particle-interaction/</link>
+      <link>https://karolis.misiunas.com/posts/nondecaying-particle-interaction/</link>
       <pubDate>Sat, 19 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/nondecaying-particle-interaction/</guid>
+      <guid>https://karolis.misiunas.com/posts/nondecaying-particle-interaction/</guid>
       <description>We have discovered a particle-particle interactions that have distance-independent strength. These are rare in physics, thus I am excited about this result. Learn more about the experiment from the paper or watch the video below
   
 Published in Physical Review Letters, 2015.</description>
@@ -87,10 +107,10 @@ Published in Physical Review Letters, 2015.</description>
     
     <item>
       <title>Sweeper Craft - android game</title>
-      <link>https://kmisiunas.github.io/website/posts/game-minecraft-sweeper/</link>
+      <link>https://karolis.misiunas.com/posts/game-minecraft-sweeper/</link>
       <pubDate>Sun, 29 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/game-minecraft-sweeper/</guid>
+      <guid>https://karolis.misiunas.com/posts/game-minecraft-sweeper/</guid>
       <description>Game of minesweeper with mathematical and logical elements set in a theme and modes that resemble MineCraft for Android OS! The rules are like minesweeper, but with more adventure: multiple livesand hidden treasures to discover. The game also has virtually unlimited map size – uncommon among minesweeper games. We hope you like it!
 Direct download from website : http://sweepercraft.com/
 There was an article published about the game: http://kotaku.com/minecraft-sweeper/</description>

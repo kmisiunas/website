@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Karolis Misiunas</title>
-    <link>https://kmisiunas.github.io/website/posts/</link>
+    <link>https://karolis.misiunas.com/posts/</link>
     <description>Recent content in Posts on Karolis Misiunas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 07 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://kmisiunas.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://karolis.misiunas.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>QuipuNet: single-molecule analysis using deep-learning</title>
-      <link>https://kmisiunas.github.io/website/posts/quipunet/</link>
+      <link>https://karolis.misiunas.com/posts/quipunet/</link>
       <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/quipunet/</guid>
+      <guid>https://karolis.misiunas.com/posts/quipunet/</guid>
       <description>Abstract. Nanopore sensing is a versatile technique for the analysis of molecules on the single-molecule level. However, extracting information from data with established algorithms usually requires time-consuming checks by an experienced researcher due to inherent variability of solid-state nanopores. Here, we develop a convolutional neural network (CNN) for the fully automated extraction of information from the time-series signals obtained by nanopore sensors. In our demonstration, we use a previously published data set on multiplexed single-molecule protein sensing.</description>
     </item>
     
     <item>
       <title>Sunshine per capita estimate</title>
-      <link>https://kmisiunas.github.io/website/posts/sunshine-per-capita/</link>
+      <link>https://karolis.misiunas.com/posts/sunshine-per-capita/</link>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/sunshine-per-capita/</guid>
+      <guid>https://karolis.misiunas.com/posts/sunshine-per-capita/</guid>
       <description>The heat map shows an effective sunshine amount per person. The red areas have plenty of sun, while purple areas have little sunshine per person.
 Sun is the source of life on earth. We use it for agriculture and increasingly for electricity generation. In the long term, humanity will rely completely on the renewable energy, where the sunshine will be the most valuable natural resource. Here, I look at the regions which have the greatest amount of the sunshine per capita.</description>
     </item>
     
     <item>
       <title>Forbes 30 under 30</title>
-      <link>https://kmisiunas.github.io/website/posts/forbes-30-under-30/</link>
+      <link>https://karolis.misiunas.com/posts/forbes-30-under-30/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/forbes-30-under-30/</guid>
+      <guid>https://karolis.misiunas.com/posts/forbes-30-under-30/</guid>
       <description>Forbes magazine has picked me ’30 under 30′ in category of Science and healthcare, Europe. This was a pleasant surprise that I am very grateful for. You can read more about it: Forbes article or Churchill college article.</description>
     </item>
     
     <item>
       <title>Nondecaying particle interactions</title>
-      <link>https://kmisiunas.github.io/website/posts/nondecaying-particle-interaction/</link>
+      <link>https://karolis.misiunas.com/posts/nondecaying-particle-interaction/</link>
       <pubDate>Sat, 19 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/nondecaying-particle-interaction/</guid>
+      <guid>https://karolis.misiunas.com/posts/nondecaying-particle-interaction/</guid>
       <description>We have discovered a particle-particle interactions that have distance-independent strength. These are rare in physics, thus I am excited about this result. Learn more about the experiment from the paper or watch the video below
   
 Published in Physical Review Letters, 2015.</description>
@@ -52,10 +52,10 @@ Published in Physical Review Letters, 2015.</description>
     
     <item>
       <title>Sweeper Craft - android game</title>
-      <link>https://kmisiunas.github.io/website/posts/game-minecraft-sweeper/</link>
+      <link>https://karolis.misiunas.com/posts/game-minecraft-sweeper/</link>
       <pubDate>Sun, 29 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://kmisiunas.github.io/website/posts/game-minecraft-sweeper/</guid>
+      <guid>https://karolis.misiunas.com/posts/game-minecraft-sweeper/</guid>
       <description>Game of minesweeper with mathematical and logical elements set in a theme and modes that resemble MineCraft for Android OS! The rules are like minesweeper, but with more adventure: multiple livesand hidden treasures to discover. The game also has virtually unlimited map size – uncommon among minesweeper games. We hope you like it!
 Direct download from website : http://sweepercraft.com/
 There was an article published about the game: http://kotaku.com/minecraft-sweeper/</description>
