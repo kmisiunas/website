@@ -86,6 +86,17 @@ Sun is the source of life on earth. We use it for agriculture and increasingly f
     </item>
     
     <item>
+      <title>PhD thesis</title>
+      <link>https://karolis.misiunas.com/posts/thesis/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://karolis.misiunas.com/posts/thesis/</guid>
+      <description>&amp;ldquo;Hydrodynamic interactions in narrow channels&amp;rdquo; PhD supervisor: Ulrich F. Keyser
+Examiners: Daan Frenkel, Lydéric Bocquet
+Abstract. Particle-particle interactions are of paramount importance in every multi-body system as they determine the collective behaviour and coupling strength. Many well-known interactions like electro-static, van der Waals or screened Coulomb, decay exponentially or with negative powers of the particle spacing r. Similarly, hydrodynamic interactions between particles undergoing Brownian motion decay as 1/r in bulk, and are assumed to decay in small channels.</description>
+    </item>
+    
+    <item>
       <title>Forbes 30 under 30</title>
       <link>https://karolis.misiunas.com/posts/forbes-30-under-30/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
@@ -113,7 +124,8 @@ Published in Physical Review Letters, 2015.</description>
       <guid>https://karolis.misiunas.com/posts/game-minecraft-sweeper/</guid>
       <description>Game of minesweeper with mathematical and logical elements set in a theme and modes that resemble MineCraft for Android OS! The rules are like minesweeper, but with more adventure: multiple livesand hidden treasures to discover. The game also has virtually unlimited map size – uncommon among minesweeper games. We hope you like it!
 Direct download from website : http://sweepercraft.com/
-There was an article published about the game: http://kotaku.com/minecraft-sweeper/</description>
+There was an article published about the game: http://kotaku.com/minecraft-sweeper/
+Update: the game is no longer actively maintained, but I am happy that over 1&amp;rsquo;000&amp;rsquo;000 people downloaded this game.</description>
     </item>
     
   </channel>
