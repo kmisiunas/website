@@ -17,9 +17,8 @@
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://karolis.misiunas.com/posts/optimising-commute-time/</guid>
-      <description>  Fig.1. Cycling commute. Dashed line shows 20min commute zone; solid line is with 30min; and solid red line is within 40min commute.
-    Fig.2. Public transport commute. Dashed line shows 20min commute zone; solid line is with 30min; and solid red line is within 40min commute.
-  </description>
+      <description>I have recently moved to Zürich and now am facing a dilemma: where should I live? Having a short commute and opportunity to cycle are particularly important to me. Here, I solve this problem by analysing commute data and thus finding optimal locations to live.
+Method I gather data from Google Maps since it has public transport schedules. The idea is to measure the commute time from every street in Zurich to my work.</description>
     </item>
     
     <item>
@@ -56,7 +55,7 @@ Research Interests  Generative Adversarial Networks
   Other Interests  Entrepreneurship
  Quantified-Self
   Contact Primary email k.misiunas (at) gmail.com
-For private email please use k.misiunas (at) protonmail.ch (public key)</description>
+For private email please use kmisiunas (at) pm.me (public key)</description>
     </item>
     
     <item>
