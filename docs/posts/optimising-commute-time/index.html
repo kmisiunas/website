@@ -94,7 +94,7 @@ job_loc <span style="color:#666">=</span> parse_coordinates( gmaps<span style="c
 
 <span style="color:#007020;font-weight:bold">print</span>(<span style="color:#4070a0">&#34;Job location:&#34;</span>, job_loc)
 <span style="color:#60a0b0;font-style:italic"># =&gt; Job location: (47.3653139, 8.524474699999999)</span></code></pre></div>
-<p>These are the coordinates for my new job at Google. Now, I want to estimate commute times to these coordinates from different places in the city. Function <code>distance_matrix</code> allows to get the time for specific mode of transport. We query this function for many points on a rectangular grid,</p>
+<p>These are the coordinates for my new job at Google. Now, I want to estimate commute times to these coordinates from different places in the city. Function <code>distance_matrix</code> allows getting the time for a specific mode of transport. We query this function for many points on a rectangular grid,</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#60a0b0;font-style:italic"># (...helper code...)</span>
 
 res <span style="color:#666">=</span> [] <span style="color:#60a0b0;font-style:italic"># store results </span>
@@ -111,7 +111,7 @@ res <span style="color:#666">=</span> [] <span style="color:#60a0b0;font-style:i
                parser<span style="color:#666">.</span>parse(<span style="color:#4070a0">&#34;2018-12-20T09:00:00+01&#34;</span>), <span style="color:#60a0b0;font-style:italic"># date must be in the future</span>
          )
          res<span style="color:#666">.</span>append(_parse_distance_matrix(distance))</code></pre></div>
-<p>Of course, we could do this manually, but it would take us long time since there is over 6000 points on this grid. Let the computer do the work 🤖</p>
+<p>Of course, we could do this manually, but it would take us a long time since there are over 6000 points on this grid. Let the computer do the work 🤖</p>
 
 <h2 id="commute-times">Commute times</h2>
 
@@ -125,9 +125,9 @@ res <span style="color:#666">=</span> [] <span style="color:#60a0b0;font-style:i
 </figure>
 
 
-<p>The data clearly suggest that living closer to work reduces the commute time; no surprise here. However, the commute times are not uniformly distributed around the office, with 20 minute zone extending a lot further south than in any other direction. This is because, there are faster train lines going south that allow shorter commute times. This was not obvious to me before starting the analysis and it helps to find ideal location.</p>
+<p>The data clearly suggest that living closer to work reduces the commute time; no surprise here. However, the commute times are not uniformly distributed around the office, with 20 minute zone extending a lot further south than in any other direction. This is because there are faster train lines going south that allow shorter commute times. This was not obvious to me before starting the analysis and it helps to find the ideal location.</p>
 
-<p>A small technical note on transport in water. Google Maps just teleport you to the closes shore and estimates the commute time from there. Thus, the commute times in water do not reflect of owing a house-boat, but are just an artefact of getting data off Google Maps API.</p>
+<p>A small technical note on transport in water. Google Maps just teleport you to the closest shore and estimates the commute time from there. Thus, the commute times in water do not reflect of owing a house-boat but are just an artefact of getting data off Google Maps API.</p>
 
 <p>Next, I would like to cycle to work if the weather permits. Using the same method, I get commute times shown in Figure 2.</p>
 
@@ -155,19 +155,19 @@ res <span style="color:#666">=</span> [] <span style="color:#60a0b0;font-style:i
 </figure>
 
 
-<p>Figure 3 shows the time it takes to get home from the city centre around midnight. The 20 min travel zone is larger than in the commute estimate because here we are computing the distance from Zürich HB - the main train station. This data suggests that it is straight forwards to get home from most places in the city.</p>
+<p>Figure 3 shows the time it takes to get home from the city centre around midnight. The 20 min travel zone is larger than in the commute estimate because here we are computing the distance from Zürich HB - the main train station. This data suggests that it is straightforward to get home from most places in the city.</p>
 
 <h2 id="try-it-yourself">Try it yourself</h2>
 
 <p>You will need:</p>
 
 <ul>
-<li>Google Maps API key. It is free for small number of queries, but you will have to leave a credit/debit card with Google Could. You can deactivate the account after the analysis.</li>
+<li>Google Maps API key. It is free for a small number of queries, but you will have to leave a credit/debit card with Google Could. You can deactivate the account after the analysis.</li>
 <li>Python3 (via anaconda). Also free.</li>
 <li>Wolfram Mathematica for visualisations. This tool is unfortunately not free, but you can try using it on Wolfram Cloud which is free for moderate usage. Also, similar visualisations can be made in python, but I have not done it.</li>
 </ul>
 
-<p>Code is on GitHub. Hope it empowers your next relocation. Send me a thanks if it makes a big difference.</p>
+<p>The code is on GitHub. Hope it empowers your next relocation. Send me thanks if it makes a big difference.</p>
 
 <hr />
 
@@ -188,7 +188,7 @@ res <span style="color:#666">=</span> [] <span style="color:#60a0b0;font-style:i
 </main>		<footer>
 			<span>
 			&nbsp;&bull;&nbsp;
-			<time datetime="2019-01-07 01:06:36.704121 &#43;0100 CET m=&#43;0.218111417">2019</time>
+			<time datetime="2019-01-08 00:35:09.396744 &#43;0100 CET m=&#43;0.458802384">2019</time>
 			&nbsp;&bull;&nbsp;
 			<a href="https://github.com/kmisiunas" target="_blank">GitHub</a>
 			&nbsp;&bull;&nbsp;
