@@ -1,0 +1,21 @@
+baseURL: "https://karolis.misiunas.com/"
+languageCode: "en-gb"
+title: "Karolis Misiunas"
+theme: tale
+enableEmoji: true
+
+# RelativeURLs: true
+# CanonifyURLs: true
+
+publishDir: docs
+
+pygmentsCodefences: true
+pygmentsStyle: "friendly"
+
+params:
+  author: "Dr Karolis Misiunas"
+  description: "Blog"
+  showSignature: true
+
+googleAnalytics: UA-4830476-3
+
