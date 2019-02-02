@@ -22,6 +22,18 @@ Method I gather data from Google Maps since it has public transport schedules. T
     </item>
     
     <item>
+      <title>Tips on plotting</title>
+      <link>https://karolis.misiunas.com/learning/data-science/plotting/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://karolis.misiunas.com/learning/data-science/plotting/</guid>
+      <description>Producing clear figures is one of the key skill set.
+DRAFT: please be considerate and help improve it
+Clarity Missing data Missing data should be treated carefully and always focus on the message behind the visualisation [1]. Common methods:
+ Show the gaps Treat it as a category Interpolate  Rules of thumb  Never use piecharts because they are difficult to interpret. We are simply not that great at finding the biggest piece of the pie 😞🍰  Styling Frame with ticks on all edges helps to read out the values because it easy to draw horizontal lines</description>
+    </item>
+    
+    <item>
       <title>System Design</title>
       <link>https://karolis.misiunas.com/learning/cs/system-design/</link>
       <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
