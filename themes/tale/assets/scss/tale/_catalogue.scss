@@ -16,9 +16,9 @@
   }
 
   &-time {
-    color: $default-tint;
-    font-family: $serif-secondary;
-    letter-spacing: .5px;
+    font-family: $default-color;
+    font-weight: bold;
+    padding: 0 0.7rem 0 0;
   }
 
   &-title {

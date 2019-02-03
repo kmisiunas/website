@@ -1,4 +1,4 @@
-{{- partial "header.html" . }}
+{{ define "main" }}
 
 <main>
 	<div class="post">
@@ -10,30 +10,20 @@
 		<br>
 		<hr class="br-bottom-page">
 		<div class="post-info">
-		<span>{{ i18n "writtenBy" }}</span>
-		{{- if .Params.Author }}
-			{{ .Params.Author }}
-		{{- else }}
-			{{ .Site.Params.Author }}
-		{{- end }}
+			<span>{{ i18n "writtenBy" }}</span>
+			{{- if .Params.Author }}
+				{{ .Params.Author }}
+			{{- else }}
+				{{ .Site.Params.Author }}
+			{{- end }}
 
-		{{- if .PublishDate }}
-			<br>
-			<span>{{ i18n "on" }}&nbsp;</span><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-		{{- end }}
+			{{- if .PublishDate }}
+				<br>
+				<span>{{ i18n "on" }}&nbsp;</span><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+			{{- end }}
 		</div>
 	</div>
 
-	<!-- <div class="pagination">
-		{{- if .Next }}
-		<a href="{{ .Next.URL }}" class="left arrow">&#8592;</a>
-		{{- end }}
-		{{- if .Prev }}
-		<a href="{{ .Prev.URL }}" class="right arrow">&#8594;</a>
-		{{- end }}
-
-		<a href="#" class="top">Top</a>
-	</div> -->
 </main>
 
-{{- partial "footer.html" . }}
+{{ end }}
