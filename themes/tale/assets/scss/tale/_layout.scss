@@ -87,13 +87,6 @@ footer {
 
   span {
     color: $default-color;
-    font-size: 0.8rem;
-  }
-
-  a {
-    color: $default-color;
-    &:hover {
-      text-decoration: underline;
-    }
+    font-size: .8rem;
   }
 }

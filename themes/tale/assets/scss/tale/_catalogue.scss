@@ -7,7 +7,7 @@
 
     &:hover .catalogue-line,
     &:focus .catalogue-line {
-      width: 8rem;
+      width: 5rem;
     }
 
     &:last-child {
@@ -22,18 +22,18 @@
   }
 
   &-title {
-    color: $title-blue;
+    color: $default-shade;
     display: block;
-    font-family: $serif-primary;
-    font-size: 1.7em;
-    font-weight: 300;
+    font-family: $sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
     margin: .5rem 0;
   }
 
   &-line {
     @include transition(all .3s ease-out);
-    border-top: 2px solid $default-shade;
+    border-top: .2rem solid $default-shade;
     display: block;
-    width: 1.6rem;
+    width: 2rem;
   }
 }
