@@ -3,8 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://karolis.misiunas.com/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://karolis.misiunas.com/posts/optimising-commute-time/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karolis.misiunas.com/posts/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karolis.misiunas.com/learning/</loc>
+    <lastmod>2018-10-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -69,24 +87,6 @@
   
   <url>
     <loc>https://karolis.misiunas.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://karolis.misiunas.com/</loc>
-    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://karolis.misiunas.com/learning/</loc>
-    <lastmod>2018-10-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://karolis.misiunas.com/posts/</loc>
-    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
