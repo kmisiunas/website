@@ -19,3 +19,13 @@ params:
 
 googleAnalytics: UA-4830476-3
 
+menu:
+  main:
+  - identifier: about
+    name: About
+    url: /about/
+  - name: Thought Sketches
+    url: /
+
+# assetDir: "static"
+
