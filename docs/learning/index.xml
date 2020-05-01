@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learnings on Karolis Misiunas</title>
@@ -20,7 +20,7 @@
       <description>Producing clear figures is one of the key skill set.
 DRAFT: please be considerate and help improve it
 Clarity Missing data Missing data should be treated carefully and always focus on the message behind the visualisation [1]. Common methods:
- Show the gaps Treat it as a category Interpolate  Rules of thumb  Never use piecharts because they are difficult to interpret. We are simply not that great at finding the biggest piece of the pie 😞🍰  Styling Frame with ticks on all edges helps to read out the values because it easy to draw horizontal lines</description>
+ Show the gaps Treat it as a category Interpolate  Rules of thumb  Never use piecharts because they are difficult to interpret. We are simply not that great at finding the biggest piece of the pie 😞🍰   Styling Frame with ticks on all edges helps to read out the values because it easy to draw horizontal lines</description>
     </item>
     
     <item>
