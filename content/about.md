@@ -3,7 +3,6 @@ title: "About me"
 date: 2018-10-01
 draft: false
 type: about
-layout: single
 typora-root-url: ../static
 ---
 

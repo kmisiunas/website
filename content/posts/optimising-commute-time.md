@@ -3,7 +3,6 @@ title: "Optimising commute time"
 date: 2018-12-17
 draft: false
 typora-root-url: ../../static/
-type: other
 ---
 
 I have recently moved to Zürich and now am facing a dilemma: where should I live? Having a short commute and opportunity to cycle are particularly important to me. Here, I solve this problem by analysing commute data and thus finding optimal locations to live. 
@@ -87,7 +86,7 @@ You will need:
 - Python3 (via anaconda). Also free.
 - Wolfram Mathematica for visualisations. This tool is unfortunately not free, but you can try using it on Wolfram Cloud which is free for moderate usage. Also, similar visualisations can be made in python, but I have not done it. 
 
-The code is on GitHub. Hope it empowers your next relocation. Send me thanks if it makes a big difference. 
+The code is on [GitHub](https://github.com/kmisiunas/where-to-live/). Hope it empowers your next relocation. Send me thanks if it makes a big difference. 
 
 ---
 
