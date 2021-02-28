@@ -380,44 +380,34 @@ var inputCard = {
         self.ui.start.addEventListener('click', function() {
             self.ui.start.disabled = true;
             self.ui.resume.disabled = true;
-
             self.ui.stop.disabled = false;
             self.ui.pause.disabled = false;
-
             self.ui.selectMimeTypeFormats.disabled = true;
-
             self.ui.wrap.dispatchEvent(evStart);
         });
 
         self.ui.stop.addEventListener('click', function() {
             self.ui.start.disabled = false;
-
             self.ui.stop.disabled = true;
             self.ui.pause.disabled = true;
             self.ui.resume.disabled = true;
-
             self.ui.selectMimeTypeFormats.disabled = false;
-
             self.ui.wrap.dispatchEvent(evStop);
         });
 
         self.ui.pause.addEventListener('click', function() {
             self.ui.start.disabled = true;
             self.ui.pause.disabled = true;
-
             self.ui.resume.disabled = false;
             self.ui.stop.disabled = false;
-
             self.ui.wrap.dispatchEvent(evPause);
         });
 
         self.ui.resume.addEventListener('click', function() {
             self.ui.start.disabled = true;
             self.ui.resume.disabled = true;
-
             self.ui.pause.disabled = false;
             self.ui.stop.disabled = false;
-
             self.ui.wrap.dispatchEvent(evResume);
         });
 
@@ -499,6 +489,8 @@ function initRecorder() {
         setTimeout(() => {  
           console.log("And stop singing.");
           rec.stop();
+          inputCard.ui.start.disabled = false;
+          inputCard.ui.stop.disabled = true;
           resultCard.toggleBtn(false);
         }, stop_at);
     }, false);
