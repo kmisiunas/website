@@ -6,22 +6,26 @@
     <description>Recent content on Karolis Misiunas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://karolis.misiunas.com/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://karolis.misiunas.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>German language grammar A1, A2</title>
+      <link>https://karolis.misiunas.com/learning/german-language/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://karolis.misiunas.com/learning/german-language/</guid>
+      <description>DRAFT: please be considerate and help improve it
+Komparativ    POSITIV KOMPARATIV SUPERLATIV     klein kleiner am kleinsten   schön schöner am schönsten   Exception: im Komparativ     teuer teurer am teuersten   dunkel dunkler am dunkelsten   Exception: One syllable adjectives a,o,u&amp;mdash;&amp;ndash;&amp;gt;ä,ö,ü (more exists)     alt älter am ältesten   jung jünger am jüngsten   kurz kürzer am kürzesten   gross grösser am grössten   Exception: Sonderformen     gut besser am besten   gern lieber am liebsten   viel mehr am meisten   nah (en: no) näher am nächsten   hoch höher am höchsten        Männlich Feminin Neutral Plural     Nomativ der Tischein Tischder neue Tischein neuer Tischneuer Tisch die Lampeeine Lampe die neue Lampeeine neue Lampeneue Lampe das Buchein Buchdas neue Buchein neues Buchneues Buch die Freunde&amp;mdash;die neuen Freunde&amp;mdash;neue Freunde   Akkusativ den Tischeinen Tisch den neuen Tischeinen neuen Tisch neuen Tisch same as above same as above same as above   Dativ dem Tischeinem Tischdem neuen Tischeinem neuen Tischneuem Tisch der Lampeeiner Lampeder neuen Lampeeiner neuen Lampe neuer Lampe dem Bucheinem Buchdem neuen Bucheinem neuen Buchneuem Buch den Freunden&amp;mdash; den neuen Freunden &amp;mdash; neuen Freunden   Genitive des Tischeseines Tisches des neuen Tisches eines neuen Tischesneues Tisches der Lampeeiner Lampeder neuen Lampeeiner neuen Lampe neuer Lampe des Bucheines Buches des neuen Buches eines neuen Buchesneues Buches der Freunde&amp;mdash;der neuen Freunde&amp;mdash;neuer Freunde    </description>
+    </item>
     
     <item>
-      <title>Practical guide to Hugo website</title>
-      <link>https://karolis.misiunas.com/hugo/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <title>Happy Birthday</title>
+      <link>https://karolis.misiunas.com/happy-birthday/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://karolis.misiunas.com/hugo/</guid>
-      <description>Structure Updating Tale Theme I maintain custom theme based on Tale. Tale is connected as git sub-module, such that it would pick up updates. Hugo recommends updating static file in the main Hugo folder because this allows to pick up theme updates. However, this would see
-Useful
- Removing git sub-module.   This guide is intended for myself to
-Images   Fig.1. This is an awesome image
-   https://www.</description>
+      <guid>https://karolis.misiunas.com/happy-birthday/</guid>
+      <description>Meike&amp;rsquo;s birthday is coming soon! Since we are still stuck at home and cannot celebrate together, I would like to make a collective happy birthday video for Meike.
+This page will guide you step-by-stem how to record synchronised video of the classic happy birthday song. I will collect these videos, make a video collage and share it with Meike on her birthday.
+Step 1: Record a video Requirements           Recording Start Pause Resume Stop    	Step 2: Check the results    Clear Download     Step 3: Send me the video Download the video by clicking &amp;ldquo;Download&amp;rdquo; button above (it might be in strange format, but it does work).</description>
     </item>
     
     <item>
@@ -110,16 +114,6 @@ For private email please use kmisiunas (at) pm.me (public key)</description>
       <guid>https://karolis.misiunas.com/learning/self-hack/human-universals/</guid>
       <description>Excerpt From Steven Pinker: “The Blank Slate”
 This list, compiled in 1989 and published in 1991, consists primarily of “surface” universals of behavior and overt language noted by ethnographers. It does not list deeper universals of mental structure that are revealed by theory and experiments. It also omits near-universals (traits that most, but not all, cultures show) and conditional universals (“If a culture has trait A, it always has trait B”).</description>
-    </item>
-    
-    <item>
-      <title>Sunshine per capita estimate</title>
-      <link>https://karolis.misiunas.com/posts/sunshine-per-capita/</link>
-      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://karolis.misiunas.com/posts/sunshine-per-capita/</guid>
-      <description>The heat map shows an effective sunshine amount per person. The red areas have plenty of sun, while purple areas have little sunshine per person.
-Sun is the source of life on earth. We use it for agriculture and increasingly for electricity generation. In the long term, humanity will rely completely on the renewable energy, where the sunshine will be the most valuable natural resource. Here, I look at the regions which have the greatest amount of the sunshine per capita.</description>
     </item>
     
     <item>
