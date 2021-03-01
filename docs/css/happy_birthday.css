@@ -6,8 +6,8 @@
   text-align: center;
   /*background: hsla(210, 50%, 15%, 0.75);*/
   font-family: "Libre Baskerville","Times New Roman",Times,serif;
-  font-size: 1.5em;
-  padding: 0.7em;
+  font-size: 1.2em;
+  padding: 0.7em 0.0em;
 }
 span {
   display: inline-block;
